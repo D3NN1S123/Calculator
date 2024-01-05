@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="calc.css" rel="stylesheet">
+    <script src="calculator.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="outline">
+<div class="outputText">
+    <p id="output">0</p>
+    <p id="output2"></p>
+</div>
+<div class="buttons">
+<div class="firstLine">
+
+    <button onclick="clearScreen()" id="clear">C</button>
+    <button onclick="neg()"  id="posorneg">+/-</button>
+    <button onclick="perc()" id="percent">%</button>
+
+    <button onclick="div()"  id="divide">÷</button>
+</div>
+<div class="secondLine">
+    
+    <button onclick="number(7)" id="seven">7</button>
+    <button onclick="number(8)" id="eight">8</button>
+    <button onclick="number(9)" id="nine">9</button>
+
+    <button onclick="mult()" id="multiply">x</button>
+</div>
+<div class="thirdLine">
+    
+    <button onclick="number(4)" id="four">4</button>
+    <button onclick="number(5)" id="five">5</button>
+    <button onclick="number(6)" id="six">6</button>
+
+    <button onclick="subt()"   id="sub">-</button>
+</div>
+<div class="fourthLine">
+
+    <button onclick="number(1)" id="one">1</button>
+    <button onclick="number(2)" id="two">2</button>
+    <button onclick="number(3)" id="three">3</button>
+    
+    <button onclick="addi()"  id="add">+</button>
+</div>
+<div class="lastLine">
+    
+    <button onclick="number(0)" id="zero">0</button>
+    <button onclick="dott()"  id="dot">.</button>
+    
+    <button onclick="equals()" id="equalss">=</button>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

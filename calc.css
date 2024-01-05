@@ -1,0 +1,247 @@
+@font-face {
+    font-family: calcFont;
+    src: url(fonts/Uni\ Sans\ Thin.otf);
+}
+
+.outside{
+    background-color: white;
+    
+}
+
+
+body{
+    
+    background: rgb(153,252,247);
+    background: linear-gradient(90deg, rgba(153,252,247,1) 0%, rgba(255,192,250,1) 100%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 640px;
+    margin-top: 120px;
+}
+button{
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.firstLine button{
+    background-color:rgb(166, 173, 180);
+    border: none;
+    color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;   
+}
+
+#divide{
+    color: white;
+    background-color: orange;
+}
+
+.secondLine button{
+    background-color:rgb(64, 67, 70);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    
+}
+
+#multiply{
+    color: white;
+    background-color: orange;
+}
+
+.thirdLine button{
+    background-color:rgb(64, 67, 70);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    
+}
+
+#sub{
+    color: white;
+    background-color: orange;
+}
+.fourthLine button{
+    background-color:rgb(64, 67, 70);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    
+}
+
+#add{
+    color: white;
+    background-color: orange;
+}
+
+.lastLine button{
+    background-color:rgb(64, 67, 70);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    
+}
+
+#equalss{
+    color: white;
+    background-color: orange;
+    transition: 0.3s;
+}
+
+#zero{
+    width: 133px;
+    border-radius: 40%;
+}
+
+.outputText{
+    display: block;
+    width: 303px;
+    height: 150px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(42, 45, 48);
+    padding-right: 6px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.outputText p{
+    float: right;
+}
+
+.buttons{
+    position: fixed;
+    background-color: rgb(42, 45, 48);
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#equalss:active{
+    background-color: rgb(255, 212, 132);
+    color: white;
+    transition-duration: 0s;
+}
+
+
+#add:focus{
+    background-color: white;
+    color: orange;
+    transition-duration: 0.2s;
+}
+
+#sub:focus{
+    background-color: white;
+    color: orange;
+    transition-duration: 0.2s;
+}
+
+#divide:focus{
+    background-color: white;
+    color: orange;
+    transition-duration: 0.2s;
+}
+
+#multiply:focus{
+    background-color: white;
+    color: orange;
+    transition-duration: 0.2s;
+}
+
+#clear:active{
+    background-color: rgb(203, 212, 219); 
+    transition: 0s;
+}
+
+#posorneg:active{
+    transition: 0s;
+    background-color: rgb(203, 212, 219); 
+}
+
+
+#percent:active{
+    background-color: rgb(203, 212, 219); 
+    transition: 0s;
+}
+
+#seven:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
+#eight:active{
+    transition: 0s;
+    background-color: rgb(113, 118, 122);
+}
+
+
+#nine:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
+#six:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
+#five:active{
+    transition: 0s;
+    background-color: rgb(113, 118, 122);
+}
+
+
+#four:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
+#three:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
+#one:active{
+    transition: 0s;
+    background-color: rgb(113, 118, 122);
+}
+
+
+#two:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
+#seven:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
+#zero:active{
+    transition: 0s;
+    background-color: rgb(113, 118, 122);
+}
+
+
+#dot:active{
+    background-color: rgb(113, 118, 122); 
+    transition: 0s;
+}
+
